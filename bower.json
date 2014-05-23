@@ -25,5 +25,5 @@
     "accordion"
   ],
   "license": "MIT",
-  "private": true
+  "private": false
 }
