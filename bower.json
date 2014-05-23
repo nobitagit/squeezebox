@@ -6,17 +6,20 @@
     "spec",
     ".gitignore",
     "bower.json",
-    "gruntfile.js",
     "package.json",
-    "README.md",
     "node_modules",
     "bower_components",
-    "**/.*"
+    "config.rb",
+    "demo.html",
+    "Gruntfile.js",
+    "license.mdown",
+    "README.mdown",
+    "squeezebox.js"
   ],
   "main": "squeezebox.min.js",
   "homepage": "https://github.com/nobitagit/squeezebox",
   "authors": [
-    "Nobita ttps://github.com/nobitagit/"
+    "Nobita https://github.com/nobitagit/"
   ],
   "description": "A minimal, versatile and ultra-light jQuery accordion  plugin",
   "keywords": [
