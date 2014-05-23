@@ -1,0 +1,22 @@
+# Squeezebox
+
+Squeezebox.js is a minimal, ultra-light jQuery plugin for easely adding accordions to any website. It's built to be fast, retain semantics and have low impact on markup.
+
+## Install
+
+Download or fork the repo and include the .js file right after your jQuery is loaded.
+
+## Usage
+
+Squeezebox.js expects a very minimal structure to work and does not add any DIVs or HTML tags. It comes with predefined, overridable classes for its elements. Here's an example of the minimum required layout the plugin needs:
+
+``` html
+<div class="accordion">
+	<header class="squeezhead">
+		<p>header</p>
+	</header>
+	<div class="squeezecnt">
+		<p>content</p>
+	</div>
+</div>
+```
