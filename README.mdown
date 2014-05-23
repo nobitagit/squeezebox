@@ -1,4 +1,4 @@
-# Squeezebox
+# Squeezebox.js
 
 Squeezebox.js is a minimal, ultra-light jQuery plugin for easely adding accordions to any website. It's built to be fast, retain semantics and have low impact on markup.
 
@@ -49,7 +49,9 @@ $('.accordion-wrap').squeezebox({
 
 Callbacks are also available and get fired when opening or closing a folder. Further details in the docs and the demo.
 
+## License
 
+This software is released under MIT license.
 
 
 

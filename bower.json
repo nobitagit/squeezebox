@@ -1,0 +1,29 @@
+{
+  "name": "squeezebox",
+  "version": "0.0.1",
+  "ignore": [
+    "demo_files",
+    "spec",
+    ".gitignore",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md",
+    "node_modules",
+    "bower_components",
+    "**/.*"
+  ],
+  "main": "squeezebox.min.js",
+  "homepage": "https://github.com/nobitagit/squeezebox",
+  "authors": [
+    "Nobita ttps://github.com/nobitagit/"
+  ],
+  "description": "A minimal, versatile and ultra-light jQuery accordion  plugin",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "accordion"
+  ],
+  "license": "MIT",
+  "private": true
+}
