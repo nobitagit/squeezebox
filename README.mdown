@@ -4,7 +4,12 @@ Squeezebox.js is a minimal, ultra-light jQuery plugin for easely adding accordio
 
 ## Install
 
-Download or fork the repo and include the .js file right after your jQuery is loaded.
+Download or fork the repo and include the .js or min.js file right after your jQuery is loaded.
+
+``` html
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="squeezebox.min.js"></script>
+```
 
 ## Usage
 
@@ -20,3 +25,33 @@ Squeezebox.js expects a very minimal structure to work and does not add any DIVs
 	</div>
 </div>
 ```
+Once the plugin is loaded a new squeezebox method will be available. Just fire it like so:
+
+``` js
+$('.accordion-wrap').squeezebox();
+```
+
+For in depth usage see the demo.
+
+## Options
+
+Options can be passed to override the defaults. Just pass them as an object to the squeezbox method like so:
+
+``` js
+$('.accordion-wrap').squeezebox({
+	headers: '.squeezhead',
+	folders: '.squeezecnt',
+	closeOthers: true,
+	closedOnStart: true,
+	animated : true
+});
+```
+
+Callbacks are also available and get fired when opening or closing a folder. Further details in the docs and the demo.
+
+
+
+
+
+
+
