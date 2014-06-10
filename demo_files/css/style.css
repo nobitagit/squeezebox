@@ -765,8 +765,8 @@ code .comment {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../icons/fonts/icomoon.eot?iqfpkj");
-  src: url("../icons/fonts/icomoon.eot?#iefixiqfpkj") format("embedded-opentype"), url("../icons/fonts/icomoon.woff?iqfpkj") format("woff"), url("../icons/fonts/icomoon.ttf?iqfpkj") format("truetype"), url("../icons/fonts/icomoon.svg?iqfpkj#icomoon") format("svg");
+  src: url("icomoon.eot?iqfpkj");
+  src: url("icomoon.eot?#iefixiqfpkj") format("embedded-opentype"), url("icomoon.woff?iqfpkj") format("woff"), url("icomoon.ttf?iqfpkj") format("truetype"), url("icomoon.svg?iqfpkj#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
