@@ -728,7 +728,7 @@ code .comment {
 }
 
 .accordion_open {
-  background: darkgrey;
+  /* background: darkgrey; */
 }
 .accordion_open .icon-arrow-right {
   -webkit-transform: rotate(90deg);
