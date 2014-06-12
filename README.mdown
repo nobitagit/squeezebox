@@ -13,7 +13,7 @@ Download or fork the repo and include the .js or min.js file right after your jQ
 <script type="text/javascript" src="squeezebox.min.js"></script>
 ```
 
-If you're  ok using the command line and use bower you can simply run `bower install squeezbox` to get a minified version of the plugin.
+If you're  ok using the command line and use bower you can simply run `bower install squeezebox` to get a minified version of the plugin.
 
 ## Usage
 
